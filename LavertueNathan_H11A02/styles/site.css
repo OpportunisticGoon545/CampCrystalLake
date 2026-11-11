@@ -1,0 +1,70 @@
+header {
+    background: url(../images/realLogo.png) no-repeat left / 15vi #89CE94;
+    border: 5px solid #1F2041;
+}
+
+.headerInline {
+    margin-inline-start: 20vi;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    section{
+        font-size: 3vi;
+        border: 5px solid #1F2041;
+        margin: 20px;
+        padding: 3px;
+        #image1{
+            float: right;
+            height: 30vi;
+            width:30vi;
+        }
+        #image2{
+            float: left;
+        }
+    }
+}
+body {
+    background-color: #89CE94;
+}
+
+html {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+footer {}
+
+nav {
+    ul {
+        li {
+            list-style: none;
+            display: inline;
+            padding: 30px;
+
+            &:nth-of-type(4) {
+                display: none;
+            }
+
+            &:last-of-type {
+                display: none;
+            }
+        }
+    }
+}
+
+ul {
+    li {
+        list-style: none;
+        display: inline;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+}
